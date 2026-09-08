@@ -163,4 +163,4 @@ npm start
 
 ## 📄 License
 
-MIT License © 2026 AirLoom. Built for maximum speed, security, and zero-cloud friction.
+GPL-2.0 License © 2026 AirLoom. Built for maximum speed, security, and zero-cloud friction.
