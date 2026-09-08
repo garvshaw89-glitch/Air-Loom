@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="none">
+  <defs>
+    <linearGradient id="airloomGrad" x1="28" y1="228" x2="228" y2="28" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4a044e" />
+      <stop offset="45%" stop-color="#86198f" />
+      <stop offset="75%" stop-color="#c026d3" />
+      <stop offset="100%" stop-color="#db2777" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background container for high-contrast visibility on both dark and light browser tabs -->
+  <rect width="256" height="256" rx="48" fill="#0f172a" />
+
+  <!-- Outer QR Frame Elements with the AirLoom Gradient -->
+  <g fill="url(#airloomGrad)">
+    <!-- Top-Left Corner Bracket & Maze -->
+    <path d="M 36 36 H 92 V 54 H 54 V 92 H 36 Z" />
+    <rect x="54" y="68" width="30" height="18" rx="2" />
+    <rect x="36" y="104" width="28" height="18" rx="2" />
+
+    <!-- Top Prongs -->
+    <rect x="108" y="36" width="16" height="32" rx="2" />
+    <rect x="132" y="36" width="16" height="32" rx="2" />
+    <rect x="98" y="58" width="60" height="16" rx="2" />
+
+    <!-- Top-Right Corner Bracket & Maze -->
+    <path d="M 164 36 H 220 V 92 H 202 V 54 H 164 Z" />
+    <rect x="172" y="68" width="30" height="18" rx="2" />
+    <rect x="192" y="104" width="28" height="18" rx="2" />
+
+    <!-- Left Flank Elements -->
+    <rect x="36" y="134" width="36" height="18" rx="2" />
+
+    <!-- Right Flank Elements -->
+    <rect x="184" y="134" width="36" height="18" rx="2" />
+
+    <!-- Bottom-Left Corner Bracket & Maze -->
+    <path d="M 36 220 H 92 V 202 H 54 V 164 H 36 Z" />
+    <rect x="54" y="170" width="30" height="18" rx="2" />
+
+    <!-- Bottom Prongs -->
+    <rect x="98" y="182" width="60" height="16" rx="2" />
+    <rect x="108" y="188" width="16" height="32" rx="2" />
+    <rect x="132" y="188" width="16" height="32" rx="2" />
+
+    <!-- Bottom-Right Corner Bracket & Maze -->
+    <path d="M 220 220 H 164 V 202 H 202 V 164 H 220 Z" />
+    <rect x="172" y="170" width="30" height="18" rx="2" />
+
+    <!-- Central AirLoom Core Matrix -->
+    <rect x="80" y="80" width="96" height="96" rx="8" />
+  </g>
+
+  <!-- Stylized "A" in the Core Center (Negative Space) -->
+  <path
+    d="M 128 96 L 102 158 H 117 L 123 143 H 133 L 139 158 H 154 L 128 96 Z M 128 116 L 131.5 131 H 124.5 L 128 116 Z"
+    fill="#ffffff"
+  />
+</svg>

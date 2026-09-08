@@ -1,0 +1,6 @@
+{
+  "name": "AirLoom",
+  "description": "Production-grade, privacy-focused file transfer platform with streaming chunked uploads, password protection, and QR code access.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
