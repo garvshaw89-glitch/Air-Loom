@@ -116,7 +116,7 @@ When an upload completes, AirLoom synthesizes a high-contrast QR code directly i
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/airloom.git
+git clone https://github.com/garvshaw89-glitch/airloom.git
 cd airloom
 
 # Install dependencies
